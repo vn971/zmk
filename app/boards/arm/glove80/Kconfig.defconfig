@@ -21,7 +21,7 @@ endif # BOARD_GLOVE80_RH
 if BOARD_GLOVE80_LH || BOARD_GLOVE80_RH
 
 config ZMK_SPLIT
-    default y
+    default n
 
 config BT_CTLR
     default BT
